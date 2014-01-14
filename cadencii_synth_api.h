@@ -1,12 +1,12 @@
 #pragma once
 
 #include <memory>
-#include <cstdint>
+#include <stdint.h>
 
 namespace cadencii {
 namespace singing {
 
-typedef std::int64_t tick_t;
+typedef int64_t tick_t;
 
 }
 }
